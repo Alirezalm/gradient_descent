@@ -3,4 +3,4 @@ project(gradient_discent)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(gradient_discent main.cpp)
+add_executable(gradient_discent main.cpp src/problem.cpp include/problem.h)

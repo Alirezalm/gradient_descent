@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/alireza/myprojects/numerical_methods/gradient_discent/include/problem.h">
+			<Option target="gradient_discent"/>
+		</Unit>
 		<Unit filename="/home/alireza/myprojects/numerical_methods/gradient_discent/main.cpp">
+			<Option target="gradient_discent"/>
+		</Unit>
+		<Unit filename="/home/alireza/myprojects/numerical_methods/gradient_discent/src/problem.cpp">
 			<Option target="gradient_discent"/>
 		</Unit>
 		<Unit filename="/home/alireza/myprojects/numerical_methods/gradient_discent/CMakeLists.txt">

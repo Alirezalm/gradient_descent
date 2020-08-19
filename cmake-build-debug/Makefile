@@ -170,6 +170,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gradient_discent.dir/build.make CMakeFiles/gradient_discent.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/problem.o: src/problem.cpp.o
+
+.PHONY : src/problem.o
+
+# target to build an object file
+src/problem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gradient_discent.dir/build.make CMakeFiles/gradient_discent.dir/src/problem.cpp.o
+.PHONY : src/problem.cpp.o
+
+src/problem.i: src/problem.cpp.i
+
+.PHONY : src/problem.i
+
+# target to preprocess a source file
+src/problem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gradient_discent.dir/build.make CMakeFiles/gradient_discent.dir/src/problem.cpp.i
+.PHONY : src/problem.cpp.i
+
+src/problem.s: src/problem.cpp.s
+
+.PHONY : src/problem.s
+
+# target to generate assembly for a file
+src/problem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gradient_discent.dir/build.make CMakeFiles/gradient_discent.dir/src/problem.cpp.s
+.PHONY : src/problem.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +209,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/problem.o"
+	@echo "... src/problem.i"
+	@echo "... src/problem.s"
 .PHONY : help
 
 

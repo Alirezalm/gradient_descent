@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gradient_discent.dir/main.cpp.o"
+  "CMakeFiles/gradient_discent.dir/src/problem.cpp.o"
   "gradient_discent"
   "gradient_discent.pdb"
 )
