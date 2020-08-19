@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alireza/myprojects/numerical_methods/gradient_discent/include/problem.h
+
+/home/alireza/myprojects/numerical_methods/gradient_discent/main.cpp
+iostream
+-
+
+/home/alireza/myprojects/numerical_methods/gradient_discent/src/problem.cpp
+../include/problem.h
+/home/alireza/myprojects/numerical_methods/gradient_discent/include/problem.h
+
