@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/alireza/myprojects/numerical_methods/gradient_discent/main.cpp" "/home/alireza/myprojects/numerical_methods/gradient_discent/cmake-build-debug/CMakeFiles/gradient_discent.dir/main.cpp.o"
+  "/home/alireza/myprojects/numerical_methods/gradient_discent/src/convex_functions/quadratic.cpp" "/home/alireza/myprojects/numerical_methods/gradient_discent/cmake-build-debug/CMakeFiles/gradient_discent.dir/src/convex_functions/quadratic.cpp.o"
   "/home/alireza/myprojects/numerical_methods/gradient_discent/src/problem.cpp" "/home/alireza/myprojects/numerical_methods/gradient_discent/cmake-build-debug/CMakeFiles/gradient_discent.dir/src/problem.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

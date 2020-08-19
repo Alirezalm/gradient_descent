@@ -170,6 +170,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gradient_discent.dir/build.make CMakeFiles/gradient_discent.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/convex_functions/quadratic.o: src/convex_functions/quadratic.cpp.o
+
+.PHONY : src/convex_functions/quadratic.o
+
+# target to build an object file
+src/convex_functions/quadratic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gradient_discent.dir/build.make CMakeFiles/gradient_discent.dir/src/convex_functions/quadratic.cpp.o
+.PHONY : src/convex_functions/quadratic.cpp.o
+
+src/convex_functions/quadratic.i: src/convex_functions/quadratic.cpp.i
+
+.PHONY : src/convex_functions/quadratic.i
+
+# target to preprocess a source file
+src/convex_functions/quadratic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gradient_discent.dir/build.make CMakeFiles/gradient_discent.dir/src/convex_functions/quadratic.cpp.i
+.PHONY : src/convex_functions/quadratic.cpp.i
+
+src/convex_functions/quadratic.s: src/convex_functions/quadratic.cpp.s
+
+.PHONY : src/convex_functions/quadratic.s
+
+# target to generate assembly for a file
+src/convex_functions/quadratic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gradient_discent.dir/build.make CMakeFiles/gradient_discent.dir/src/convex_functions/quadratic.cpp.s
+.PHONY : src/convex_functions/quadratic.cpp.s
+
 src/problem.o: src/problem.cpp.o
 
 .PHONY : src/problem.o
@@ -209,6 +236,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/convex_functions/quadratic.o"
+	@echo "... src/convex_functions/quadratic.i"
+	@echo "... src/convex_functions/quadratic.s"
 	@echo "... src/problem.o"
 	@echo "... src/problem.i"
 	@echo "... src/problem.s"

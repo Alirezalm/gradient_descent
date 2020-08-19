@@ -85,7 +85,13 @@
 		<Unit filename="/home/alireza/myprojects/numerical_methods/gradient_discent/include/problem.h">
 			<Option target="gradient_discent"/>
 		</Unit>
+		<Unit filename="/home/alireza/myprojects/numerical_methods/gradient_discent/include/quadratic.h">
+			<Option target="gradient_discent"/>
+		</Unit>
 		<Unit filename="/home/alireza/myprojects/numerical_methods/gradient_discent/main.cpp">
+			<Option target="gradient_discent"/>
+		</Unit>
+		<Unit filename="/home/alireza/myprojects/numerical_methods/gradient_discent/src/convex_functions/quadratic.cpp">
 			<Option target="gradient_discent"/>
 		</Unit>
 		<Unit filename="/home/alireza/myprojects/numerical_methods/gradient_discent/src/problem.cpp">
