@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/gradient_discent.dir/main.cpp.o  -o gradient_discent 

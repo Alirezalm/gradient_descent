@@ -1,0 +1,3 @@
+/home/alireza/myprojects/numerical_methods/gradient_discent/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/alireza/myprojects/numerical_methods/gradient_discent/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/alireza/myprojects/numerical_methods/gradient_discent/cmake-build-debug/CMakeFiles/gradient_discent.dir
