@@ -55,6 +55,10 @@ Matrix<double, Dynamic, Dynamic> QuadFunc::hessian(Matrix<double, Dynamic, 1> x)
     return H;
 }
 
+MatrixXd QuadFunc::eigen_values() {
+    return H.eigenvalues().real();
+}
+
 
 
 

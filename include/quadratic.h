@@ -10,7 +10,7 @@
 #define GRADIENT_DISCENT_QUADRATIC_H
 
 #include "../lib/eigen-3.3.7/Eigen/Dense"
-
+//#include "problem.h"
 using namespace Eigen;
 
 class QuadFunc{
@@ -25,6 +25,7 @@ public:
 
     Matrix<double, Dynamic, Dynamic> hessian(Matrix<double, Dynamic, 1> x); // compute the hessian matrix
 
+    MatrixXd eigen_values();
 
     const Matrix<double, Dynamic, Dynamic> &getH() const; //geter for H
 
@@ -42,6 +43,7 @@ private:
     Matrix<double, Dynamic, Dynamic> H;
     Matrix<double, Dynamic, 1>  c;
     MatrixXd d;
+    friend class Problem;
 };
 
 

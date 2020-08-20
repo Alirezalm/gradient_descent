@@ -7,20 +7,15 @@
 #include <iostream>
 #include <cmath>
 #include "../lib/eigen-3.3.7/Eigen/Dense"
+#include "../lib/eigen-3.3.7/Eigen/Cholesky"
 #include "quadratic.h"
 
-class Problem {
-
+class Problem{
 public:
-
-    Problem(); // default constructor
-
-
-
+    Problem(QuadFunc obj);
+    void solve();
 private:
-
-
+    QuadFunc objective;
 };
-
 
 #endif //GRADIENT_DISCENT_PROBLEM_H

@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/alireza/myprojects/numerical_methods/gradient_discent/include/problem.h
+iostream
+-
+cmath
+-
+../lib/eigen-3.3.7/Eigen/Dense
+/home/alireza/myprojects/numerical_methods/gradient_discent/lib/eigen-3.3.7/Eigen/Dense
+../lib/eigen-3.3.7/Eigen/Cholesky
+/home/alireza/myprojects/numerical_methods/gradient_discent/lib/eigen-3.3.7/Eigen/Cholesky
+quadratic.h
+/home/alireza/myprojects/numerical_methods/gradient_discent/include/quadratic.h
+
 /home/alireza/myprojects/numerical_methods/gradient_discent/include/quadratic.h
 ../lib/eigen-3.3.7/Eigen/Dense
 /home/alireza/myprojects/numerical_methods/gradient_discent/lib/eigen-3.3.7/Eigen/Dense
@@ -1061,4 +1073,6 @@ iostream
 -
 include/quadratic.h
 /home/alireza/myprojects/numerical_methods/gradient_discent/include/quadratic.h
+include/problem.h
+/home/alireza/myprojects/numerical_methods/gradient_discent/include/problem.h
 
