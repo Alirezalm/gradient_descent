@@ -5,7 +5,6 @@
 #include "../include/problem.h"
 
 Problem::Problem(QuadFunc obj): objective(obj) {
-
 }
 void Problem::solve() {
 

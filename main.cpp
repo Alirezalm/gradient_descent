@@ -4,7 +4,13 @@
 #include "include/problem.h"
 int main() {
 
-    const int n = 10;
+    int n;
+    std :: cout << "Welcome to my QP solver" << std :: endl;
+    std :: cout << "Gradient Based Unconstrained QP solver" << std :: endl;
+    std :: cout << "Written by Alireza Olama <alireza.lm69@gmail.com>" << std :: endl;
+    std :: cout << "Please enter your desired QP problem size bellow" << std :: endl;
+    std :: cout << "QP size: ";
+    std :: cin >> n;
     MatrixXd H, c, x, d, I;
     H.setRandom(n,n);
     I = MatrixXd :: Identity(n,n);
